@@ -163,3 +163,31 @@ text-align: center;
 .interns-div h3{
   color: aqua;
 }
+
+
+.resume-btn{
+  text-align: center;
+}
+
+.resume-btn button{
+  border-radius: 5px;
+  background-color:darkcyan;
+  padding: 10px;
+}
+
+
+
+.resume-btn button a{
+  color:darkblue;
+}
+
+fooer .nav-link-bar{
+  
+}
+footer .nav-link-bar ul{
+  list-style:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
