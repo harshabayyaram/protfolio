@@ -2,7 +2,6 @@
   background-color: black;
   color: white;
   margin: 0px;
-  margin-bottom: 20px;
 }
 body {
   font-family: "Open Sans";
@@ -30,7 +29,7 @@ body {
   text-decoration: none;
   color: white;
 }
-.image-div {
+.flex-div {
   display: flex;
   flex-direction: row;
 }
@@ -56,6 +55,7 @@ body {
   border-radius: 30px;
   height: 13px;
   margin-right: 75px;
+  width: 100%;  
 }
 .sts-bar {
   background-color: white;
@@ -67,7 +67,7 @@ body {
 }
 .Academic-prjcts-div {
   margin-left: 60px;
-  width: 318px;
+  width: 526px;
   font-size: 17px;
   border: 1px solid orange;
   border-top-left-radius: 40px;
@@ -92,6 +92,8 @@ footer {
   height: 8rem;
   bottom: 0%;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 footer d.nav-link-bar {
   margin: 5rem;
@@ -101,7 +103,7 @@ footer d.nav-link-bar {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 2rem 3rem;
+  margin: -1rem 3rem;
 }
 .skills .development-skills {
   width: 40%;
@@ -111,4 +113,49 @@ footer d.nav-link-bar {
 .skills .programming-skills {
   width: 40%;
   margin: 2rem;
+}
+
+
+.development-skills h2{
+  text-align: center;
+  margin: 3rem;
+  color: aqua;
+}
+.development-skills p{
+  color:aquamarine;
+}
+
+.programming-skills h2{
+  text-align: center;
+  margin: 3rem;
+  color: aqua;
+}
+.programming-skills p{
+  color: aquamarine;
+}
+
+
+.technical-skills h1{
+text-align: center;
+}
+
+
+
+.Academic-prjcts-div h3{
+  text-align: center;
+  color:blanchedalmond;
+}
+
+
+.Academic-prjcts-div p{
+  text-align: left;
+}
+
+
+.flex-div {
+  justify-content: center;
+}
+
+.title-color{
+  color: blueviolet;
 }
