@@ -1,347 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Harsha Bayyaram</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto Slab"
-      rel="stylesheet"
-    />
-    
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  </head>
+    <link rel="stylesheet" href="./css/style.css">
 
-  <body class="body-bg">
-    <header class="nav-bar">
-      <h1 class="title title-color">Harshath Kumar Bayyaram</h1>
-      <div class="nav-link-bar">
-        <a href="#" class="nav-links" target="_blank">Home</a>
-        <a href="#" class="nav-links" target="_blank">About me</a>
-        <a href="#skills" class="nav-links">Skills</a>
-        <a href="https://harshabayyaram.hashnode.dev/" class="nav-links" target="_blank">Articles</a>
-        <a href="#" class="nav-links" target="_blank">Services</a>
-        <a href="#" class="nav-links" target="_blank">Contact</a>
-      </div>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Harsha Bayyaram</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
     </header>
 
-    <main>
-      <div class="flex-div">
-        <div class="my-pic">
-          <img src="./images/my_photo.jpg" alt="harsha_image" class="my-img" />
-        </div>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">HARSHA</span><br>Web developer</h1> <br>
 
-        <section class="intro-div">
-          <h1>I'm Harshath Kumar Bayyaram</h1>
-          <a target="_blank" href="mailto:bayyaramharsha@gmail.com"
-            ><b>bayyaramharsha@gmail.com</b></a
-          >
-          <p>
-            A motivated and diligent student seeking opportunities to further
-            develop my skills and gain practical experience in software
-            development. I am eager to contribute my knowledge and enthusiasm to
-            a dynamic and challenging professional environment.
-          </p>
-          <br />
-          <p class="resume-btn">
-            <button>
-              <a
-                href="https://drive.google.com/file/d/1QRJwYHbhd3LyChQLgBklwUJq2HZn4SRL/view?usp=sharing"
-                class="nav-links"
-                target="_blank"
-                >Check Resume/CV</a
-              >
-            </button>
-          </p>
-          <div>
-            <div class="icons-white">
-              <ul>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/harshath-kumar-bayyaram/"
-                    class="nav-links"
-                    target="_blank"
-                    ><i class="fa-brands fa-linkedin fa-2x" style="color: #fff9f9;"></i></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://harshabayyaram.hashnode.dev/"
-                    class="nav-links"
-                    target="_blank"
-                    ><i class="fa-brands fa-hashnode fa-2x" style="color: #fff9f9;"></i></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/harshabayyaram"
-                    class="nav-links"
-                    target="_blank"
-                    ><i class="fa-brands fa-github fa-2x" style="color: #fff9f9;"></i></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/Harshabayyaram"
-                    class="nav-links"
-                    target="_blank"
-                    ><i class="fa-brands fa-twitter fa-2x" style="color: #fff9f9;"></i></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="https://www.instagram.com/harsha_bayyaram/"
-                    class="nav-links"
-                    target="_blank"
-                    ><i class="fa-brands fa-instagram fa-2x" style="color: #fff9f9;"></i></a
-                  >
-                </li>
-              </ul>
+                <a href="https://drive.google.com/file/d/1-HgEFiizSIjxHJA4FDISwFwzz4bFpQCv/view?usp=sharing" class="button" target="_blank">Check Resume</a>
             </div>
-          </div>
 
-          <br />
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/harshath-kumar-bayyaram/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/Harshabayyaram" class="home__social-icon" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/harshabayyaram" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/harsha_bayyaram/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="./img/prefil_mine.png"/>
+                        </g>
+                    </svg>
+            </div>
         </section>
-      </div>
-<br><br><br>
-      <div class="technical-skills ">
-        <h1 class="title-color">Technical skills</h1>
-        <div class="skills">
-          <div class="development-skills">
-            <h2>Development-skills</h2>
-            <p>HTML</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:95%">&nbsp;</div>
-            </div>
-            <p>CSS</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:75%">&nbsp;</div>
-            </div>
-            
-            <p>Java Script</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:65%">&nbsp;</div>
-            </div>
-            <p>BootStrap</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:75%">&nbsp;</div>
-            </div>
-            <p>React</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:25%">&nbsp;</div>
-            </div>
-            
-          </div>
-          <div class="programming-skills">
-            <h2>Programming-skills</h2>
-            <p>Java</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:75%">&nbsp;</div>
-            </div>
 
-            <p>Python</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:65%">&nbsp;</div>
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="./img/about.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Harsha</h2>
+                    <p class="about__text">I am a self-motivated,energetic engineering student skilled in leadership, with a strong foundation in math,logic, coding and I love to teach, I am looking for an opportunity to work with a team that runs on clear communication. I
+                        want to align myself with a company Ibelieve inandwhere I cancreatepositive change. Iworkwellunder pressure and can produce high-quality work in short period of time. I have strong interpersonal skills and work with a wide variety
+                        of people. I am always looking to learn more and am open to taking on challenging projects.</p>
+                </div>
             </div>
+        </section>
 
-            <p>Arduino C</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:80%">&nbsp;</div>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">React JS</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Bootstrap</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <div>
+                    <img src="./img/work3.jpg" alt="" class="skills__img">
+                </div>
             </div>
+        </section>
 
-            <p>C</p>
-            <div class="sts-bar-bg">
-              <div class="sts-bar" style="width:50%">&nbsp;</div>
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Mask recognition with ESP32 Cam</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work3.jpg" alt="">
+                    <h1>Personal protfolio</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work1.jpg" alt="">
+                    <h1>RFID Based attendance system with SMS alerts</h1>
+                </a>
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Automatic fire detection and alerting system with SMS and call alerts</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Aquaculture monitoring system</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Automatic motor cutoff based on SMS request</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Automatic engine off on Alcohol detection</h1>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Automatic Motor off on soil moisture detection</h1>
+                </a>
+
+
+
+
+
             </div>
+        </section>
 
-            
-          </div>
-        </div>
-      </div>
-      <br /><br /><br />
+        <!--===== Internship =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
 
-      <div class="projects">
-        <h1 class="Academic-title title-color">Academic Projects</h1>
-        <br />
-        <div class="flex-div">
-          <section class="Academic-prjcts-div">
-            <h3>
-              Radio Frequency Based Identification attendance and student
-              monitoring system with SMS alerts
-            </h3>
-            <p>
-              The RF-based identification attendance and student monitoring
-              system with SMS alerts using Arduino and GSM is an advanced
-              solution that automates attendance tracking in educational
-              institutions. By utilizing RF technology and Arduino boards,
-              students can be uniquely identified through RFID cards or tags,
-              ensuring accuracy and efficiency. The system enables real-time
-              monitoring of attendance data, which can be instantly updated and
-              accessed by teachers, administrators, and parents. Additionally,
-              SMS alerts can be sent to notify parents or guardians about
-              student absences, facilitating timely communication and
-              intervention. This comprehensive system improves accountability,
-              reduces manual effort, and enhances the overall educational
-              experience.
-            </p>
-            <br />
-          </section>
+            <div class="work__container bd-grid">
 
-          <section class="Academic-prjcts-div">
-            <h3>
-              Automatic fire detection and control with call and sms alerts to
-              fire department and police department
-            </h3>
-            <p>
-              The Automatic Fire Detection and Control system with call and SMS
-              alerts to fire and police departments, using Arduino and GSM
-              technology, is a cutting-edge solution designed to enhance fire
-              safety and emergency response. This system utilizes sensors to
-              detect smoke or rapid changes in temperature, triggering an
-              immediate alert. By integrating Arduino and GSM modules, the
-              system automatically notifies the fire and police departments via
-              phone calls and SMS alerts, providing them with crucial
-              information about the location and severity of the fire. This
-              real-time communication allows for swift and coordinated emergency
-              response, reducing the risk of property damage and potential harm
-              to human life. The integration of Arduino and GSM technology
-              ensures the system's reliability, scalability, and ease of
-              implementation, making it an invaluable tool in mitigating fire
-              hazards and improving public safety.
-            </p>
-            <br />
-          </section>
-        </div>
-      </div>
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>INTERNPE</h1>
+                    <p>Lus officiis. Quas, dicta officia eos ut nam recusandae incidunt animi sed officiis reiciendis iusto dolores. Eveniet ad nobis vitae recusandae aliquam optio pariatur nihil non, deleniti eius ut! Eum dicta alias, perferendis ipsum
+                        quae at, repellat poreniti quidem facere excepturi! Suscipit dignissimos ipsa fugiat, beatae consectetur debitis recusandae porro dolorem. Assumenda, non?</p>
+                </a>
 
-      <br /><br /><br />
-      <div class="internship">
-        <h1 class="Academic-title title-color">Internship/Work Experience</h1>
-        <div>
-          <section class="interns-div">
-            <div>
-              <h3>Lets Grow More</h3>
-              <span>Web developer</span>
-              <span> | OCT 2022 - NOV 2022</span>
-              <p>
-                During my one-month Virtual Web Developer Internship at Let's
-                Grow More, I gained valuable hands-on experience and practical
-                skills in web development. Working alongside a talented team, I
-                was able to contribute to real-world projects, sharpen my
-                proficiency in HTML, CSS, JavaScript, and frameworks like React
-                and Angular, and gain insights into database management, API
-                integration, and version control systems. This internship not
-                only enhanced my technical expertise but also improved my
-                communication, collaboration, and problem-solving abilities in a
-                remote work environment. I am grateful for the opportunity to
-                have been a part of Let's Grow More, and I am excited to
-                leverage my learnings as I continue to grow as a web developer.
-              </p>
-              <br />
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>Lets Grow More</h1>
+                    <p>During my one-month Virtual Web Developer Internship at Let's Grow More, I gained valuable hands-on experience and practical skills in web development. Working alongside a talented team, I was able to contribute to real-world projects,
+                        sharpen my proficiency in HTML, CSS, JavaScript, and frameworks like React and Angular, and gain insights into database management, API integration, and version control systems. This internship not only enhanced my technical expertise
+                        but also improved my communication, collaboration, and problem-solving abilities in a remote work environment. I am grateful for the opportunity to have been a part of Let's Grow More, and I am excited to leverage my learnings
+                        as I continue to grow as a web developer.
+
+                    </p>
+                </a>
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>IETE</h1>
+                    <p>During my remote engagement with IETE from October 2022 to November 2022, I had the opportunity to explore circuits design using MATLAB. As part of the project, I worked extensively with MATLAB's circuit simulation and analysis capabilities
+                        to create and analyze various circuits. I utilized MATLAB's powerful functions and tools to design circuits, simulate their behavior, and perform analyses such as frequency response, transient response, and parameter sweeps. This
+                        experience allowed me to deepen my understanding of circuit design principles, enhance my proficiency in MATLAB, and gain practical insights into circuit behavior and performance. Working on this project with IETE provided me with
+                        valuable hands-on experience in circuit design and strengthened my analytical and problem-solving skills.</p>
+                </a>
+
+
+                <a href="" class="work__img">
+                    <img src="./img/work2.jpg" alt="">
+                    <h1>PixelQuest</h1>
+                    <p>During my tenure at Pixel Quest from June 2020 to December 2020, I had the opportunity to work with cutting-edge mobile hardware technology and electronic components. As a member of the team, I was involved in developing and optimizing
+                        mobile hardware solutions for smartphones and other electronic devices. I gained hands-on experience in conducting research, designing prototypes, and testing various hardware components to enhance performance and user experience.
+                        This experience allowed me to deepen my understanding of mobile hardware technology, improve my problem-solving skills, and stay updated with the latest advancements in the field. Working at Pixel Quest was an exciting and rewarding
+                        experience that fueled my passion for innovation in mobile technology.</p>
+                </a>
+
+
+
+
+
+
             </div>
+        </section>
 
-            <div>
-              <h3>IETE</h3>
-              <span> | Circuits design using MATLAB</span>
-              <span> | Oct 2022 – Nov 2022</span>
-              <p>
-                During my remote engagement with IETE from October 2022 to
-                November 2022, I had the opportunity to explore circuits design
-                using MATLAB. As part of the project, I worked extensively with
-                MATLAB's circuit simulation and analysis capabilities to create
-                and analyze various circuits. I utilized MATLAB's powerful
-                functions and tools to design circuits, simulate their behavior,
-                and perform analyses such as frequency response, transient
-                response, and parameter sweeps. This experience allowed me to
-                deepen my understanding of circuit design principles, enhance my
-                proficiency in MATLAB, and gain practical insights into circuit
-                behavior and performance. Working on this project with IETE
-                provided me with valuable hands-on experience in circuit design
-                and strengthened my analytical and problem-solving skills.
-              </p>
-              <br />
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="Feedback" placeholder="Feedback..." id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="button" value="Enter" class="contact__button button">
+                </form>
             </div>
-
-            <div>
-              <h3>PIXEL QUEST</h3>
-              <span> | Mobile hardware technology and electronics</span>
-              <span> | jun 2020 – dec 2020</span>
-              <p>
-                During my tenure at Pixel Quest from June 2020 to December 2020,
-                I had the opportunity to work with cutting-edge mobile hardware
-                technology and electronic components. As a member of the team, I
-                was involved in developing and optimizing mobile hardware
-                solutions for smartphones and other electronic devices. I gained
-                hands-on experience in conducting research, designing
-                prototypes, and testing various hardware components to enhance
-                performance and user experience. This experience allowed me to
-                deepen my understanding of mobile hardware technology, improve
-                my problem-solving skills, and stay updated with the latest
-                advancements in the field. Working at Pixel Quest was an
-                exciting and rewarding experience that fueled my passion for
-                innovation in mobile technology.
-              </p>
-              <br />
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <div class="honors-rewards"></div>
+        </section>
     </main>
 
-    <footer>
-      <div class="nav-link-bar">
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/harshath-kumar-bayyaram/"
-              class="nav-links"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin fa-2x" style="color: #000000;"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://harshabayyaram.hashnode.dev/"
-              class="nav-links"
-              target="_blank"
-              ><i class="fa-brands fa-hashnode fa-2x" style="color: #000000;"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://github.com/harshabayyaram"
-              class="nav-links"
-              target="_blank"
-              ><i class="fa-brands fa-github fa-2x" style="color: #000000;"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://twitter.com/Harshabayyaram"
-              class="nav-links"
-              target="_blank"
-              ><i class="fa-brands fa-twitter fa-2x" style="color: #000000;"></i></a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/harsha_bayyaram/"
-              class="nav-links"
-              target="_blank"
-              ><i class="fa-brands fa-instagram fa-2x" style="color: #000000;"></i></a
-            >
-          </li>
-        </ul>
-      </div>
-
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Harsha</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/harshath-kumar-bayyaram/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://twitter.com/Harshabayyaram" class="footer__icon" target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://github.com/harshabayyaram" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/harsha_bayyaram/" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Harsha Bayyaram. All rigths reserved</p>
     </footer>
 
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
     <script src="./js/script.js"></script>
-  </body>
+</body>
+
 </html>
