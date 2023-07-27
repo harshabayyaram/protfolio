@@ -178,6 +178,8 @@ img {
 
 .nav__logo {
     color: var(--second-color);
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav__toggle {
@@ -256,7 +258,7 @@ img {
 }
 
 .home__blob-img {
-    width: 360px;
+    width: 450px;
 }
 
 
@@ -336,6 +338,11 @@ img {
     align-items: center;
 }
 
+.skills__name:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .skills__bar {
     position: absolute;
     left: 0;
@@ -358,8 +365,20 @@ img {
     width: 65%;
 }
 
-.skills__ux {
+.skills__reactjs {
+    width: 65%;
+}
+
+.skills__java {
     width: 85%;
+}
+
+.skills__python {
+    width: 70%;
+}
+
+.skills__bs {
+    width: 90%;
 }
 
 .skills__img {
